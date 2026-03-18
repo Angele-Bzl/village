@@ -1,0 +1,75 @@
+
+body {
+    cursor: url("img/cursor.png"), pointer;
+    min-height: 1000px;
+    margin: 0;
+}
+
+.conteneur {
+    min-height: 100vh;
+    background-color: #1da759;
+    margin: 0;
+    background-image: url(img/herbe.png)
+;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 25% 50% 25%;
+}
+
+.maison {
+    color : grey;
+    /* background-color: brown; */
+    margin: 1em;
+    padding: 1em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mairie {
+    background-image: url(img/mairie.png);
+}
+
+.eglise {
+    background-image: url(img/eglise.png);
+}
+
+.eglise:hover {
+    background-image: url(img/eglise_hover.png);
+}
+
+.boulangerie {
+    background-image: url(img/boulangerie.png);
+}
+
+.boulangerie:hover {
+    background-image: url(img/boulangerie_open.png);
+}
+
+.charcuterie {
+    background-image: url(img/charcuterie.png);
+}
+
+.charcuterie:hover {
+    background-image: url(img/charcuterie_open.png);
+}
+
+.ecole {
+    background-image: url(img/ecole.png);
+}
+
+.ecole:hover {
+    background-image: url(img/ecole_hover.png);
+}
+
+.champ {
+    background-image: url(img/champ.png);
+}
+
+.champ:hover {
+    background-image: url(img/champ_taupe.png);
+}
+
+.salledf {
+    background-image: url(img/salledf.png);
+}
