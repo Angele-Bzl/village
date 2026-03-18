@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+body:active{
+    cursor: url("img/ferme_grand.png"), pointer;
+}
+
 .pluie{
     position:fixed;
     min-height: 100vh;
