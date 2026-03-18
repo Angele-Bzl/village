@@ -2,10 +2,11 @@
 body {
     cursor: url("img/cursor.png"), pointer;
     margin: 0;
+    background-color: darkcyan;
 }
 
-body:active{
-    cursor: url("img/ferme_grand.png"), pointer;
+a{
+    text-decoration: none;
 }
 
 .pluie{
