@@ -91,3 +91,39 @@ a{
     background-image: url(img/salledf.png);
 }
 
+.oiseau{
+    display: flex;
+    min-height: 100%;
+    min-width: 100%;
+    background-size: 100% 100%;
+    /* background-color: brown; */
+    transition: justify-content 2s;
+
+    position: relative;
+}
+
+.oiseau:hover{
+    justify-content: end;
+    /* background-color: coral; */
+
+}
+
+.bird{
+    background-image: url("img/oiseau.gif");
+    background-repeat: no-repeat;
+    min-height: 50%;
+    min-width: 100%;
+    color:#1da759;
+    /* background-color: blue; */
+
+    position: absolute;
+    left: 0;
+    transition: left 2s, color 0s;
+}
+
+.bird:hover{
+    /* background-color: yellow; */
+    left: 100%;
+    color: red;
+}
+
