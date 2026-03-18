@@ -1,16 +1,28 @@
 
 body {
     cursor: url("img/cursor.png"), pointer;
-    min-height: 1000px;
     margin: 0;
 }
+
+.pluie{
+    position:fixed;
+    min-height: 100vh;
+    min-width: 100%;
+    transition: opacity 25s;
+    background-image: url(img/pluie.gif);
+    opacity: 0;
+}
+.pluie:hover{
+    opacity: 100;
+}
+
 
 .conteneur {
     min-height: 100vh;
     background-color: #1da759;
     margin: 0;
     background-image: url(img/herbe.png)
-;
+    ;
     padding: 2em;
     display: grid;
     grid-template-columns: 25% 50% 25%;
@@ -73,3 +85,4 @@ body {
 .salledf {
     background-image: url(img/salledf.png);
 }
+
